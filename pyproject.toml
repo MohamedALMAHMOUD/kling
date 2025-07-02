@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kling"
+version = "0.1.0"
+description = "Unofficial fork of kling-ai-sdk with Poetry support"
+authors = ["Dr Mohamaid <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests = "*"
+python-dotenv = "*"
+openai = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
